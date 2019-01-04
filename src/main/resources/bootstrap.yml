@@ -1,0 +1,19 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: 541455-ps-salesorder-service
+
+security:
+  basic:
+    enabled: false # turn off securing our application endpoints
+
+management:
+  security:
+    enabled: false
+    
+logging: # <----New sections below
+  level: 
+    com: DEBUG
+    
+
